@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Overpass:wght@400;700&family=Roboto:wght@100;400;700;900&family=Share+Tech+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .footer {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 1rem;
+      }
+      .footer a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+      <section class="question">
+        <img class="star" src="./images/icon-star.svg" alt="star" />
+        <h4 class="headline">How did we do?</h4>
+        <p>
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <form action="">
+          <div class="form-btns">
+            <input type="button" class="btn" value="1" />
+            <input type="button" class="btn" value="2" />
+            <input type="button" class="btn" value="3" />
+            <input type="button" class="btn" value="4" />
+            <input type="button" class="btn" value="5" />
+          </div>
+
+          <button class="submit-btn" type="submit">Submit</button>
+        </form>
+      </section>
+
+      <section class="succese">
+        <img src="./images/illustration-thank-you.svg" alt="" />
+        <p class="text-succese"></p>
+        <h4>Thank you!</h4>
+        <p>
+           We appreciate you taking the time to give a
+          rating. If you ever need more support, don’t hesitate to get in touch!
+        </p>
+      </section>
+    <div class="footer">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">John Smith</a>.
+      </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
