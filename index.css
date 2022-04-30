@@ -40,7 +40,6 @@ body {
   border: transparent;
   width: 50px;
   height: 50px;
-  margin-right: 21px;
   cursor: pointer;
   transition: all 0.5s;
 }
@@ -86,6 +85,7 @@ body {
   margin-top: 1.75rem;
   margin-bottom: 1.5rem;
   display: flex;
+  justify-content: space-between;
 }
 .question {
   padding: 1.5rem 1.25rem;
@@ -135,3 +135,6 @@ body {
   margin-top: 0.5rem;
   margin-bottom: 1rem;
 }
+
+
+
